@@ -1,10 +1,11 @@
 import { useState } from 'react'
 
 import Head from 'next/head'
-import { Card, Grid, Row, Text, Modal } from '@nextui-org/react'
+import { Modal } from '@nextui-org/react'
 //@ts-ignore
 import lodash from 'lodash'
 
+import LogoCard from '../components/LogoCard'
 import { getAllPages } from '../util/airtable'
 
 async function fetchLandscape() {
@@ -38,7 +39,6 @@ export default function Home({ tools }: { tools: Array<any> }) {
 
   const closeHandler = () => {
     setVisible(false)
-    console.log('closed')
   }
 
   const extractTwitterUsernameFromUrl = (twitterUrl: string) => {
@@ -49,12 +49,16 @@ export default function Home({ tools }: { tools: Array<any> }) {
     }
   }
 
+  const currentItemLogoUrl =
+    (currentItem?.logo || []).length > 0
+      ? currentItem?.logo[0]?.url
+      : currentItem?.logoUrl
+
   return (
-    <div className="flex min-h-screen flex-col items-center justify-center py-2">
+    <div className="">
       <Head>
         <title>Ethereum Developer Tooling Landscape | DappCamp</title>
       </Head>
-
       <Modal
         closeButton
         aria-labelledby="modal-title"
@@ -64,14 +68,26 @@ export default function Home({ tools }: { tools: Array<any> }) {
         <Modal.Body>
           <div className="pb-6">
             <img
-              src={currentItem.logoUrl}
+              src={currentItemLogoUrl}
               width={'48px'}
               height={'48px'}
               className="mb-4"
               alt={currentItem.title}
             />
             <h1 className="font-bold text-xl mb-2">{currentItem.name}</h1>
-            <p className="mb-2">{currentItem.description}</p>
+            <p className="mb-3">{currentItem.description}</p>
+            {currentItem.website && (
+              <p className="mb-1">
+                <span className="font-semibold">Website:</span>{' '}
+                <a
+                  href={currentItem.website}
+                  target="_blank"
+                  className="text-blue-500"
+                >
+                  {currentItem.website.replace(/\/$/, '')}
+                </a>
+              </p>
+            )}
             {extractTwitterUsernameFromUrl(currentItem.twitter) && (
               <p>
                 <span className="font-semibold">Twitter:</span>{' '}
@@ -87,50 +103,60 @@ export default function Home({ tools }: { tools: Array<any> }) {
           </div>
         </Modal.Body>
       </Modal>
-
-      <main className="flex w-full flex-1 flex-col items-center justify-center px-4 lg:px-20 text-center">
-        <h1 className="block mx-0 mt-0 mb-3 text-4xl font-bold text-gray-700 py-8">
-          Ethereum Developer Tooling Landscape
-        </h1>
-
-        <div className="mb-8">
-          {groupNames.map((group) => (
+      <main className="max-w-10xl mx-auto px-4 py-4 lg:px-20 flex flex-col">
+        <div>
+          <div className="flex flex-wrap justify-between w-full items-baseline lg:pb-6 lg:pt-4">
+            <div className="mb-2 lg:mb-0">
+              <img
+                className="w-36 lg:w-48 h-auto"
+                src="https://www.dappcamp.xyz/dappcamp_logo.png"
+                alt="DappCamp Logo"
+              />
+            </div>
             <div>
-              <h2 className="text-3xl text-gray-600 font-bold py-8">{group}</h2>
+              <h1 className="block text-xl lg:text-3xl font-bold text-gray-800">
+                Ethereum Developer Tooling Landscape
+              </h1>
+              <p
+                className="w-full hidden lg:block text-right text-gray-600"
+                style={{ textAlign: 'left' }}
+              >
+                {`Ethereum and EVM compatible developer tooling landscape`}
+              </p>
+            </div>
+          </div>
+        </div>
+        <div
+          style={{ width: '100%', overflow: 'scroll' }}
+          className="px-2 mt-4 lg:my-0 flex-1"
+        >
+          <div
+            className="mb-8 grid grid-rows-3 grid-cols-4 gap-x-10 px-4 text-center"
+            style={{
+              width: 'max-content',
+              height: 'max-content',
+            }}
+          >
+            {groupNames.map((group) => (
               <div>
-                <Grid.Container gap={2} justify="flex-start">
-                  {groupedTools[group].map((item: any, index: number) => (
-                    <Grid xs={6} sm={3} key={index}>
-                      <Card
-                        hoverable
-                        clickable
+                <h2 className="text-sm font-bold pb-1">{group}</h2>
+                <div>
+                  <div className="grid grid-cols-3 gap-2 items-center justify-center">
+                    {groupedTools[group].map((item: any, index: number) => (
+                      <LogoCard
+                        item={item}
                         onClick={() => {
                           setVisible(true)
                           setCurrentItem(item)
                         }}
-                      >
-                        <Card.Body css={{ p: 0 }}>
-                          <img
-                            src={item.logoUrl}
-                            width={'48px'}
-                            height={'48px'}
-                            className="mx-auto my-4"
-                            // height={140}
-                            alt={item.title}
-                          />
-                        </Card.Body>
-                        <Card.Footer>
-                          <Row wrap="wrap" justify="space-between">
-                            <Text b>{item.name}</Text>
-                          </Row>
-                        </Card.Footer>
-                      </Card>
-                    </Grid>
-                  ))}
-                </Grid.Container>
+                        key={index}
+                      />
+                    ))}
+                  </div>
+                </div>
               </div>
-            </div>
-          ))}
+            ))}
+          </div>
         </div>
       </main>
     </div>
