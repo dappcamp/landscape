@@ -55,11 +55,10 @@ export default function Home({ tools }: { tools: Array<any> }) {
       : currentItem?.logoUrl
 
   return (
-    <div className="flex min-h-screen flex-col items-center justify-center py-2">
+    <div className="">
       <Head>
         <title>Ethereum Developer Tooling Landscape | DappCamp</title>
       </Head>
-
       <Modal
         closeButton
         aria-labelledby="modal-title"
@@ -104,31 +103,35 @@ export default function Home({ tools }: { tools: Array<any> }) {
           </div>
         </Modal.Body>
       </Modal>
-
-      <main className="flex w-full flex-1 flex-col items-center justify-center px-4 py-4 lg:px-20 text-center">
-        <div className="flex flex-wrap item-center justify-between w-full items-center">
-          <h1 className="block mx-0 mt-0 mb-3 text-4xl font-bold text-gray-800 py-2">
-            Ethereum Developer Tooling Landscape
-          </h1>
-          <div>
-            <img
-              className="w-60 h-auto"
-              src="https://www.dappcamp.xyz/dappcamp_logo.png"
-              alt="DappCamp Logo"
-            />
+      <main className="max-w-10xl mx-auto px-4 py-4 lg:px-20 flex flex-col">
+        <div>
+          <div className="flex flex-wrap justify-between w-full items-baseline lg:pb-6 lg:pt-4">
+            <div className="mb-2 lg:mb-0">
+              <img
+                className="w-36 lg:w-48 h-auto"
+                src="https://www.dappcamp.xyz/dappcamp_logo.png"
+                alt="DappCamp Logo"
+              />
+            </div>
+            <div>
+              <h1 className="block text-xl lg:text-3xl font-bold text-gray-800">
+                Ethereum Developer Tooling Landscape
+              </h1>
+              <p
+                className="w-full hidden lg:block text-right text-gray-600"
+                style={{ textAlign: 'left' }}
+              >
+                {`Ethereum and EVM compatible developer tooling landscape`}
+              </p>
+            </div>
           </div>
         </div>
-
-        <p className="pb-8 w-full" style={{ textAlign: 'left' }}>
-          {`Ethereum and EVM compatible developer tooling landscape`}
-        </p>
-
         <div
-          style={{ width: '100%', height: '75vh', overflow: 'scroll' }}
-          className="px-2"
+          style={{ width: '100%', overflow: 'scroll' }}
+          className="px-2 mt-4 lg:my-0 flex-1"
         >
           <div
-            className="mb-8 grid grid-rows-3 grid-cols-4 gap-x-10 px-4"
+            className="mb-8 grid grid-rows-3 grid-cols-4 gap-x-10 px-4 text-center"
             style={{
               width: 'max-content',
               height: 'max-content',
@@ -136,7 +139,7 @@ export default function Home({ tools }: { tools: Array<any> }) {
           >
             {groupNames.map((group) => (
               <div>
-                <h2 className="text-lg font-bold pb-1">{group}</h2>
+                <h2 className="text-sm font-bold pb-1">{group}</h2>
                 <div>
                   <div className="grid grid-cols-3 gap-2 items-center justify-center">
                     {groupedTools[group].map((item: any, index: number) => (

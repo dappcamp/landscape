@@ -7,3 +7,12 @@
 body {
   font-family: 'Inter', sans-serif !important;
 }
+
+html,
+body,
+main {
+  height: 100vh;
+}
+main {
+  box-sizing: border-box;
+}
