@@ -49,6 +49,17 @@ export default function Home({ tools }: { tools: Array<any> }) {
     }
   }
 
+  const cleanWebsiteUrl = (websiteUrl: string) => {
+    try {
+      return websiteUrl
+        .replace(/\/$/, '')
+        .replace('https://', '')
+        .replace('www.', '')
+    } catch (e) {
+      return ''
+    }
+  }
+
   const currentItemLogoUrl =
     (currentItem?.logo || []).length > 0
       ? currentItem?.logo[0]?.url
@@ -76,15 +87,15 @@ export default function Home({ tools }: { tools: Array<any> }) {
             />
             <h1 className="font-bold text-xl mb-2">{currentItem.name}</h1>
             <p className="mb-3">{currentItem.description}</p>
-            {currentItem.website && (
+            {cleanWebsiteUrl(currentItem.website) && (
               <p className="mb-1">
                 <span className="font-semibold">Website:</span>{' '}
                 <a
                   href={currentItem.website}
                   target="_blank"
-                  className="text-blue-500"
+                  className="text-blue-500 hover:font-semibold"
                 >
-                  {currentItem.website.replace(/\/$/, '')}
+                  {cleanWebsiteUrl(currentItem.website)}
                 </a>
               </p>
             )}
@@ -94,7 +105,7 @@ export default function Home({ tools }: { tools: Array<any> }) {
                 <a
                   href={currentItem.twitter}
                   target="_blank"
-                  className="text-blue-500"
+                  className="text-blue-500 hover:font-semibold"
                 >
                   {extractTwitterUsernameFromUrl(currentItem.twitter)}
                 </a>
@@ -105,24 +116,28 @@ export default function Home({ tools }: { tools: Array<any> }) {
       </Modal>
       <main className="max-w-10xl mx-auto px-4 py-4 lg:px-20 flex flex-col">
         <div>
-          <div className="flex flex-wrap justify-between w-full items-baseline lg:pb-6 lg:pt-4">
+          <div className="flex flex-wrap flex-col lg:flex-row w-full items-baseline lg:pb-6 lg:pt-4 position-relative">
             <div className="mb-2 lg:mb-0">
               <img
-                className="w-36 lg:w-48 h-auto"
+                className="w-36 lg:w-36 h-auto"
                 src="https://www.dappcamp.xyz/dappcamp_logo.png"
                 alt="DappCamp Logo"
               />
             </div>
-            <div>
-              <h1 className="block text-xl lg:text-3xl font-bold text-gray-800">
+            <div className="lg:text-center flex-1">
+              <h1 className="block text-xl md:text-2xl xl:text-3xl font-bold text-gray-800">
                 Ethereum Developer Tooling Landscape
               </h1>
-              <p
-                className="w-full hidden lg:block text-right text-gray-600"
-                style={{ textAlign: 'left' }}
-              >
+              <p className="w-full hidden xl:block text-gray-600">
                 {`Ethereum and EVM compatible developer tooling landscape`}
               </p>
+            </div>
+            <div className="mb-2 lg:mb-0 hidden lg:block">
+              <img
+                className="w-36 lg:w-36 h-auto opacity-0"
+                src="https://www.dappcamp.xyz/dappcamp_logo.png"
+                alt="DappCamp Logo"
+              />
             </div>
           </div>
         </div>
@@ -137,9 +152,9 @@ export default function Home({ tools }: { tools: Array<any> }) {
               height: 'max-content',
             }}
           >
-            {groupNames.map((group) => (
-              <div>
-                <h2 className="text-sm font-bold pb-1">{group}</h2>
+            {groupNames.map((group, index) => (
+              <div key={index}>
+                <h2 className="text-md font-bold pb-1">{group}</h2>
                 <div>
                   <div className="grid grid-cols-3 gap-2 items-center justify-center">
                     {groupedTools[group].map((item: any, index: number) => (
