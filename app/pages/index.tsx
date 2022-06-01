@@ -49,7 +49,7 @@ export default function Home({ tools }: { tools: Array<any> }) {
     }
   }
 
-  const cleanWebsiteUrl = (websiteUrl: string) => {
+  const cleanUrl = (websiteUrl: string) => {
     try {
       return websiteUrl
         .replace(/\/$/, '')
@@ -72,9 +72,11 @@ export default function Home({ tools }: { tools: Array<any> }) {
       </Head>
       <Modal
         closeButton
+        width="480px"
         aria-labelledby="modal-title"
         open={visible}
         onClose={closeHandler}
+        style={{ marginLeft: '16px', marginRight: '16px' }}
       >
         <Modal.Body>
           <div className="pb-6">
@@ -87,30 +89,74 @@ export default function Home({ tools }: { tools: Array<any> }) {
             />
             <h1 className="font-bold text-xl mb-2">{currentItem.name}</h1>
             <p className="mb-3">{currentItem.description}</p>
-            {cleanWebsiteUrl(currentItem.website) && (
-              <p className="mb-1">
-                <span className="font-semibold">Website:</span>{' '}
-                <a
-                  href={currentItem.website}
-                  target="_blank"
-                  className="text-blue-500 hover:font-semibold"
-                >
-                  {cleanWebsiteUrl(currentItem.website)}
-                </a>
-              </p>
-            )}
-            {extractTwitterUsernameFromUrl(currentItem.twitter) && (
-              <p>
-                <span className="font-semibold">Twitter:</span>{' '}
-                <a
-                  href={currentItem.twitter}
-                  target="_blank"
-                  className="text-blue-500 hover:font-semibold"
-                >
-                  {extractTwitterUsernameFromUrl(currentItem.twitter)}
-                </a>
-              </p>
-            )}
+            <div className="text-sm flex flex-col gap-2">
+              <div className="detail">
+                {cleanUrl(currentItem.website) && (
+                  <p>
+                    <span className="font-semibold block mb-0.5 ">Website</span>{' '}
+                    <a
+                      href={currentItem.website}
+                      target="_blank"
+                      className="text-blue-500 hover:font-semibold"
+                    >
+                      {cleanUrl(currentItem.website)}
+                    </a>
+                  </p>
+                )}
+              </div>
+              <div className="detail">
+                {extractTwitterUsernameFromUrl(currentItem.twitter) && (
+                  <p>
+                    <span className="font-semibold block mb-0.5 ">Twitter</span>{' '}
+                    <a
+                      href={currentItem.twitter}
+                      target="_blank"
+                      className="text-blue-500 hover:font-semibold"
+                    >
+                      {extractTwitterUsernameFromUrl(currentItem.twitter)}
+                    </a>
+                  </p>
+                )}
+              </div>
+              <div className="detail">
+                {cleanUrl(currentItem.github) && (
+                  <p>
+                    <span className="font-semibold block mb-0.5 ">GitHub</span>{' '}
+                    <a
+                      href={currentItem.github}
+                      target="_blank"
+                      className="text-blue-500 hover:font-semibold"
+                    >
+                      {cleanUrl(currentItem.github)}
+                    </a>
+                  </p>
+                )}
+              </div>
+              <div className="detail">
+                {cleanUrl(currentItem.crunchbase) && (
+                  <p>
+                    <span className="font-semibold block mb-0.5 ">
+                      Crunchbase
+                    </span>{' '}
+                    <a
+                      href={currentItem.crunchbase}
+                      target="_blank"
+                      className="text-blue-500 hover:font-semibold"
+                    >
+                      {cleanUrl(currentItem.crunchbase)}
+                    </a>
+                  </p>
+                )}
+              </div>
+              <div className="detail">
+                {currentItem.funding && (
+                  <p>
+                    <span className="font-semibold block mb-0.5 ">Funding</span>{' '}
+                    {currentItem.funding}
+                  </p>
+                )}
+              </div>
+            </div>
           </div>
         </Modal.Body>
       </Modal>
