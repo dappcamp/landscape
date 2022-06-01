@@ -10,6 +10,7 @@ export default function LogoCard({ item, onClick }) {
       clickable
       onClick={onClick}
       style={{ minWidth: "fit-content", padding: "2px" }}
+      className="logo-card hover:text-blue-500"
     >
       <Card.Body css={{ p: 0 }}>
         <img
@@ -22,7 +23,7 @@ export default function LogoCard({ item, onClick }) {
       </Card.Body>
       <Card.Footer style={{ padding: "10px" }}>
         <Row wrap="wrap" justify="space-between">
-          <p className='font-semibold text-gray-600 text-xs' style={{ maxWidth: "84px" }}>{item.name}</p>
+          <p className='font-semibold text-gray-600 text-xs text-center w-full' style={{ maxWidth: "84px" }}>{item.name}</p>
         </Row>
       </Card.Footer>
     </Card>

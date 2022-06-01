@@ -16,3 +16,8 @@ main {
 main {
   box-sizing: border-box;
 }
+
+.logo-card:hover p {
+  text-decoration: underline;
+  color: rgb(59 130 246);
+}
