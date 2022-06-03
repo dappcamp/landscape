@@ -192,7 +192,7 @@ export default function Home({ tools }: { tools: Array<any> }) {
           className="px-2 mt-4 lg:my-0 flex-1"
         >
           <div
-            className="mb-8 grid grid-cols-4 gap-x-8 gap-y-12 px-4 text-center"
+            className="mb-8 grid grid-cols-4 gap-x-12 gap-y-16 px-4 text-center"
             style={{
               width: 'max-content',
               height: 'max-content',
