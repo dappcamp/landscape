@@ -87,7 +87,7 @@ export default function Home({ tools }: { tools: Array<any> }) {
               className="mb-4"
               alt={currentItem.title}
             />
-            <h1 className="font-bold text-xl mb-2">{currentItem.name}</h1>
+            <h1 className="font-bold text-xl mb-2">{currentItem.full_name || currentItem.name}</h1>
             <p className="mb-3">{currentItem.description}</p>
             <div className="text-sm flex flex-col gap-2">
               <div className="detail">
@@ -160,7 +160,7 @@ export default function Home({ tools }: { tools: Array<any> }) {
           </div>
         </Modal.Body>
       </Modal>
-      <main className="max-w-10xl mx-auto px-4 py-4 lg:px-20 flex flex-col">
+      <main className="max-w-10xl mx-auto px-4 py-4 lg:py-6 lg:px-8 flex flex-col">
         <div>
           <div className="flex flex-wrap flex-col lg:flex-row w-full items-baseline lg:pb-6 lg:pt-4 position-relative">
             <div className="mb-2 lg:mb-0">
@@ -174,8 +174,8 @@ export default function Home({ tools }: { tools: Array<any> }) {
               <h1 className="block text-xl md:text-2xl xl:text-3xl font-bold text-gray-800">
                 Ethereum Developer Tooling Landscape
               </h1>
-              <p className="w-full hidden xl:block text-gray-600">
-                {`Ethereum and EVM compatible developer tooling landscape`}
+              <p className="w-full hidden xl:block text-gray-600 text-xs max-w-2xl lg:mx-auto">
+                {`This landscape represents a comprehensive list of tools that developers use when developing smart contracts on Ethereum and EVM-compatible chains. Scroll horizontally and vertically to view the whole landscape.`}
               </p>
             </div>
             <div className="mb-2 lg:mb-0 hidden lg:block">
@@ -192,7 +192,7 @@ export default function Home({ tools }: { tools: Array<any> }) {
           className="px-2 mt-4 lg:my-0 flex-1"
         >
           <div
-            className="mb-8 grid grid-rows-3 grid-cols-4 gap-x-10 px-4 text-center"
+            className="mb-8 grid grid-cols-4 gap-x-8 gap-y-12 px-4 text-center"
             style={{
               width: 'max-content',
               height: 'max-content',

@@ -13,17 +13,17 @@ export default function LogoCard({ item, onClick }) {
       className="logo-card hover:text-blue-500"
     >
       <Card.Body css={{ p: 0 }}>
-        <img
-          src={logoUrl}
-          width={'36px'}
-          height={'36px'}
-          className="mx-auto my-2"
-          alt={item.title}
-        />
+        <div className="item-logo-container my-2 mx-auto">
+          <img
+            src={logoUrl}
+            className="item-logo"
+            alt={item.title}
+          />
+        </div>
       </Card.Body>
-      <Card.Footer style={{ padding: "10px" }}>
+      <Card.Footer style={{ padding: "8px" }}>
         <Row wrap="wrap" justify="space-between">
-          <p className='font-semibold text-gray-600 text-xs text-center w-full' style={{ maxWidth: "84px" }}>{item.name}</p>
+          <p className='font-semibold text-gray-600 text-xs text-center w-full single-line' style={{ maxWidth: "84px" }}>{item.name}</p>
         </Row>
       </Card.Footer>
     </Card>
