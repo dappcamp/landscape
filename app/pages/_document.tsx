@@ -29,7 +29,7 @@ class MyDocument extends Document {
           <meta property="og:description" content={defaultDescription} />
           <meta
             property="og:image"
-            content="https://ethereum-bootcamp-frontend.vercel.app/og-image.png"
+            content="https://www.dappcamp.xyz/og-image.png"
           />
 
           <meta name="twitter:card" content="summary_large_image" />
@@ -38,7 +38,7 @@ class MyDocument extends Document {
 
           <meta
             name="twitter:image"
-            content="https://ethereum-bootcamp-frontend.vercel.app/og-image.png"
+            content="https://www.dappcamp.xyz/og-image.png"
           />
 
           <link rel="icon" href="https://dappcamp.xyz/favicon.png" />
