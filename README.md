@@ -6,6 +6,8 @@ Currently it features 75+ tools spread across 15+ categories.
 
 The tools within each category are sorted according to their popularity/usage.
 
+![2022-06-07 14 38 00](https://user-images.githubusercontent.com/78253155/172342647-04fe429e-022f-4b95-a049-ac0299a55da7.gif)
+
 ### Contributing
 
 To suggest any changes to the entries or the categories, modify the [`landscape.json`](https://github.com/dappcamp/landscape/blob/master/app/data/landscape.json) file and open a pull request.
