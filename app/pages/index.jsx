@@ -1,16 +1,24 @@
 import { useState } from 'react'
 import Head from 'next/head'
 
+import lodash from 'lodash'
+
 import LogoCard from '../components/LogoCard'
 import ToolModal from '../components/ToolModal'
 
 import data from '../data/landscape.json'
 
-export default function Home() {
-  const categories = data
+const groupByResult = lodash.groupBy(data, (tool) => tool.category)
+const categoryNames = [...new Set(data.map((tool) => tool.category))]
+const categoriesData = categoryNames.map((category) => ({
+  name: category,
+  items: groupByResult[category],
+}))
 
+export default function Home() {
+  const [categories, setCategories] = useState(categoriesData)
   const [visible, setVisible] = useState(false)
-  const [currentItem, setCurrentItem] = useState<any>({
+  const [currentItem, setCurrentItem] = useState({
     name: '',
   })
 
@@ -30,7 +38,7 @@ export default function Home() {
       />
       <main className="max-w-10xl mx-auto px-4 py-4 lg:py-6 lg:px-8 flex flex-col">
         <div>
-          <div className="flex flex-wrap flex-col lg:flex-row w-full items-baseline lg:pb-6 lg:pt-4 position-relative">
+          <div className="flex flex-wrap flex-col lg:flex-row w-full items-baseline lg:pb-6 lg:pt-2 position-relative">
             <div className="mb-2 lg:mb-0">
               <img
                 className="w-36 lg:w-36 h-auto"
@@ -68,7 +76,7 @@ export default function Home() {
                 <h2 className="text-md font-bold pb-1">{category.name}</h2>
                 <div>
                   <div className="grid grid-cols-3 gap-2 items-center justify-center">
-                    {category.items.map((item: any, index: number) => (
+                    {category.items.map((item, index) => (
                       <LogoCard
                         item={item}
                         onClick={() => {
@@ -76,6 +84,7 @@ export default function Home() {
                           setCurrentItem(item)
                         }}
                         key={index}
+                        showLaunchYear={true}
                       />
                     ))}
                   </div>

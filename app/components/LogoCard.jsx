@@ -1,8 +1,8 @@
 import React from 'react'
 import { Card, Row } from '@nextui-org/react'
 
-export default function LogoCard({ item, onClick }) {
-  const { logo, title, name } = item
+export default function LogoCard({ item, onClick, showLaunchYear }) {
+  const { logo, title, name, launch_year } = item
 
   return (
     <Card
@@ -22,9 +22,10 @@ export default function LogoCard({ item, onClick }) {
         </div>
       </Card.Body>
       <Card.Footer style={{ padding: "8px" }}>
-        <Row wrap="wrap" justify="space-between">
+        <div className='text-center w-full'>
           <p className='font-semibold text-gray-600 text-xs text-center w-full single-line' style={{ maxWidth: "84px" }}>{name}</p>
-        </Row>
+          {showLaunchYear && <p className='text-xs text-gray-400'>{launch_year}</p>}
+        </div>
       </Card.Footer>
     </Card>
   )
