@@ -1,6 +1,8 @@
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import Head from 'next/head'
 
+import { Checkbox } from '@nextui-org/react'
+import DatePicker from 'react-datepicker'
 import lodash from 'lodash'
 
 import LogoCard from '../components/LogoCard'
@@ -21,10 +23,34 @@ export default function Home() {
   const [currentItem, setCurrentItem] = useState({
     name: '',
   })
+  const [selected, setSelected] = useState([])
+  const [startDate, setStartDate] = useState(new Date('2012/01/01'))
+  const [endDate, setEndDate] = useState(new Date())
 
   const orgAndRepo = 'dappcamp/landscape'
   const githubLink = 'https://github.com/' + orgAndRepo
   const starsImage = `https://img.shields.io/github/stars/${orgAndRepo}?style=social`
+
+  useEffect(() => {
+    const startYear = startDate.getFullYear()
+    const endYear = endDate.getFullYear()
+
+    const filteredTools = data.filter(
+      (tool) =>
+        tool.launch_year &&
+        tool.launch_year >= startYear &&
+        tool.launch_year <= endYear
+    )
+    const groupByResult = lodash.groupBy(filteredTools, (tool) => tool.category)
+    const categoryNames = [
+      ...new Set(filteredTools.map((tool) => tool.category)),
+    ]
+    const categoriesData = categoryNames.map((category) => ({
+      name: category,
+      items: groupByResult[category],
+    }))
+    setCategories(categoriesData)
+  }, [startDate, endDate])
 
   return (
     <div className="">
@@ -38,7 +64,7 @@ export default function Home() {
       />
       <main className="max-w-10xl mx-auto px-4 py-4 lg:py-6 lg:px-8 flex flex-col">
         <div>
-          <div className="flex flex-wrap flex-col lg:flex-row w-full items-baseline lg:pb-6 lg:pt-2 position-relative">
+          <div className="flex flex-wrap flex-col lg:flex-row w-full items-baseline lg:pb-2 lg:pt-1 position-relative">
             <div className="mb-2 lg:mb-0">
               <img
                 className="w-36 lg:w-36 h-auto"
@@ -63,6 +89,41 @@ export default function Home() {
             </div>
           </div>
         </div>
+        <div className="lg:pb-4 flex flex-col xl:flex-row xl:items-center gap-1 xl:gap-6 justify-center">
+          <Checkbox.Group
+            defaultValue={[]}
+            value={selected}
+            onChange={setSelected}
+          >
+            <Checkbox value="show" size={'xs'}>
+              Show launch year
+            </Checkbox>
+          </Checkbox.Group>
+          <div className="flex gap-2 items-center">
+            <p className="text-sm ">Launched in</p>
+            <div className="flex items-left w-40">
+              <DatePicker
+                selected={startDate}
+                onChange={(date) => setStartDate(date)}
+                showYearPicker
+                dateFormat="yyyy"
+                startDate={startDate}
+                endDate={endDate}
+                style={{ maxWidth: '120px' }}
+              />
+              <p className="px-1">-</p>
+              <DatePicker
+                selected={endDate}
+                onChange={(date) => setEndDate(date)}
+                showYearPicker
+                dateFormat="yyyy"
+                startDate={startDate}
+                endDate={endDate}
+                minDate={startDate}
+              />
+            </div>
+          </div>
+        </div>
         <div className="px-2 mt-4 lg:my-0 flex-1 w-full overflow-scroll">
           <div
             className="mb-8 grid grid-cols-4 gap-x-12 gap-y-16 px-4 text-center"
@@ -84,7 +145,7 @@ export default function Home() {
                           setCurrentItem(item)
                         }}
                         key={index}
-                        showLaunchYear={true}
+                        showLaunchYear={selected.length > 0}
                       />
                     ))}
                   </div>
