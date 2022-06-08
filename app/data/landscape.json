@@ -338,6 +338,19 @@
     "funding": "$20.1M"
   },
   {
+    "description": "The only SDK you need to Go Multichain (batched transactions, NFTs, ENS, Payment Channels and more). Supports EVM chains such as: Arbitrum, Optimism, Polygon, Avalanche, Fantom, Gnosis, BSC and Aurora.",
+    "name": "Etherspot",
+    "full_name": "Etherspot SDK",
+    "category": "Infrastructure",
+    "launch_year": 2021,
+    "logo": "https://etherspot.io/wp-content/themes/etherspot/assets/img/logo-color.svg",
+    "website": "https://etherspot.io",
+    "github": "https://github.com/etherspot",
+    "twitter": "https://twitter.com/etherspot",
+    "crunchbase": "",
+    "funding": ""
+  },
+  {
     "description": "MetaMask is a software cryptocurrency wallet used to interact with the Ethereum blockchain. It allows users to access their Ethereum wallet through a browser extension or mobile app, which can then be used to interact with decentralized applications. ",
     "name": "Metamask",
     "full_name": "Metamask",
@@ -453,6 +466,19 @@
     "twitter": "https://twitter.com/argentHQ",
     "crunchbase": "https://www.crunchbase.com/organization/argent",
     "funding": "$56.2M"
+  },
+  {
+    "description": "Pillar: A community-run, multichain DeFi smart wallet that supports Ethereum, Polygon, Gnosis Chain, BNB & Avalanche.",
+    "name": "Pillar",
+    "full_name": "Pillar Wallet",
+    "category": "Identity",
+    "launch_year": 2016,
+    "logo": "https://www.pillar.fi/wp-content/themes/pillar/assets/pillar-digital-artwork-logo/pillar-logo-1.png",
+    "website": "https://pillar.fi",
+    "github": "https://github.com/pillarwallet",
+    "twitter": "https://twitter.com/pillarwallet",
+    "crunchbase": "",
+    "funding": ""
   },
   {
     "description": "The InterPlanetary File System (IPFS) is a protocol and peer-to-peer network for storing and sharing data in a distributed file system. IPFS uses content-addressing to uniquely identify each file in a global namespace connecting all computing devices.",
