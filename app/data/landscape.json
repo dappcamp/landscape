@@ -1012,5 +1012,18 @@
     "twitter": "https://twitter.com/livepeerorg",
     "crunchbase": "https://www.crunchbase.com/organization/livepeer",
     "funding": "$51M"
+  },
+  {
+    "description": "RSS3 is the Feed of Web3, With one easy api endpoint, get unlimited data & feeds power.",
+    "name": "RSS3",
+    "full_name": "RSS3",
+    "category": "Protocols",
+    "launch_year": 2021,
+    "logo": "https://rss3.mypinata.cloud/ipfs/QmUG6H3Z7D5P511shn7sB4CPmpjH5uZWu4m5mWX7U3Gqbu",
+    "website": "https://rss3.io/",
+    "github": "https://github.com/NaturalSelectionLabs/RSS3-Protocol",
+    "twitter": "https://twitter.com/rss3_",
+    "crunchbase": "",
+    "funding": ""
   }
 ]
