@@ -1012,5 +1012,18 @@
     "twitter": "https://twitter.com/livepeerorg",
     "crunchbase": "https://www.crunchbase.com/organization/livepeer",
     "funding": "$51M"
+  },
+  {
+    "description": "Metrika is a blockchain monitoring platform that analyzes blockchain health and provides consistent performance metrics for nodes.",
+    "name": "Metrika",
+    "full_name": "Metrika",
+    "category": "Monitoring",
+    "launch_year": 2019,
+    "logo": "https://mma.prnewswire.com/media/1835101/Metrika_logo.jpg?p=publish",
+    "website": "https://www.metrika.co/",
+    "github": "https://github.com/metrika-inc",
+    "twitter": "https://twitter.com/metrikaco",
+    "crunchbase": "https://www.crunchbase.com/organization/metrika-3908",
+    "funding": "$17M"
   }
 ]
