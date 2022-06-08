@@ -338,7 +338,7 @@
     "funding": "$20.1M"
   },
   {
-    "description": "The only SDK you need to Go Multichain (batched transactions, NFTs, ENS, Payment Channels and more). Supports EVM chains such as: Arbitrum, Optimism, Polygon, Avalanche, Fantom, Gnosis, BSC and Aurora.",
+    "description": "The only SDK you need to Go Multichain (batched transactions, NFTs, ENS, Payment Channels and more). Supports Ethereum and EVM compatible chains such as: Arbitrum, Optimism, Polygon, Avalanche, Fantom, Gnosis, BNB and Aurora.",
     "name": "Etherspot",
     "full_name": "Etherspot SDK",
     "category": "Infrastructure",
