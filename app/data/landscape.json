@@ -273,6 +273,19 @@
     "funding": ""
   },
   {
+    "description": "Quickly experiment with Solidity using a frontend that adapts to your smart contract.",
+    "name": "Scaffold-Eth",
+    "full_name": "Scaffold-Eth",
+    "category": "Front-end Tools",
+    "launch_year": 2020,
+    "logo": "https://atgpub.s3.amazonaws.com/scaffold.png",
+    "website": "https://github.com/scaffold-eth/scaffold-eth#-scaffold-eth",
+    "github": "https://github.com/scaffold-eth/scaffold-eth",
+    "twitter": "",
+    "crunchbase": "",
+    "funding": ""
+  },
+  {
     "description": "Alchemy provides the leading blockchain development platform powering millions of users in 197 countries worldwide. Our mission is to provide developers with the fundamental building blocks they need to create the future of technology.",
     "name": "Alchemy",
     "full_name": "Alchemy",
