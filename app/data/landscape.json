@@ -286,6 +286,19 @@
     "funding": "$563.9M"
   },
   {
+    "description": "The ultimate Web3 infrastructure solution",
+    "name": "NodeReal",
+    "full_name": "NodeReal",
+    "category": "Infrastructure",
+    "launch_year": 2021,
+    "logo": "https://nodereal-pics.s3.us-east-2.amazonaws.com/nodereal%20logo%20for%20light.svg?response-content-disposition=inline&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEAgaDmFwLW5vcnRoZWFzdC0yIkYwRAIgTR5wnZM1Gxlwo9dYKKql7XJKVQOZn1JGidhIzrHqSkMCIFLm2WkDWhuv7AAKLlXV7Qrvs1SvIdqucktBSOe4hW24KugCCBEQARoMNDU2ODA5MzgyODA1IgwJFPVSI9f8R6soyjYqxQI%2F8P2J3l37jkmEeFxQ2vIXmvYHp6Qb1U2QGUNsyNceRoMSB798W3TdS72uXZqGuO1VYOh4Dw2o9aOu8u5wPBDCF%2FaYPdErwMfUvNRrU5BPmJNLADYRqz7OV9hJcndlRbn1IIDlvhikVgpegiV4C%2BTw1yB0ufN0g4GIFTT5VvcrzN32HBJayHTrzaX7zn%2B7anE627FXIYvxsnhQQzhVxPePwb2OvqqmMe%2FO%2F8LH9y2Xklm0o8WkFmFM2wh9jvzqToTaqkO5j8PzwEQpVWgVghlgZ8WsX7gEMm2HPs3GlNfTdmGgRFQuwNxJL2s0V3QB8yzuirwvwzVjmZtHcM5N1qpQz2PWN%2BfDREAkRgqlyxOmotmYFlkn2A4x0VWWkBaSLIqE2dkLzie20oKTfjdSOMi6BrW2loSFkjWSDt67nQ4khZ%2FlLLj9MKzThpUGOrQCbUjPa0NMUShybaeI8SJy%2By4viKi1Ux3giSqecXfEMMbXy9dLmZ7oOhgBKbUzgRzdyIjKp3c9e%2Fu%2F%2FDXzYuVmdjvgCONEodiiFOf9bkhec5AkdU4raDWqQR9YqcpyLZhueH49n9g0jqLpjDKTssj5%2FRpA2i1fvRxqJWV2G1KKmmpakuaSsjt6kp54tNxthrKGYYqJpreq%2F2j77bU6Vh7o8n4XPuk%2Bvy4PaVu78gXXcJMt3QPsP5tX7sjbbWvEkEVtBkszv%2Fl0x7vLPt0Lnr8uxjzgDIFgf1WftEMQVrxw%2BP6k4H4sS%2FJHfQpQ1vxUkouidmvuFIftQTxZWNzUssMZmLfbv8oYBPYQvsMdAwvvQLzLLqrOYc7mmaCZMgkOdq1ThHZydRvGtTlGn0pfv%2BBwz5%2BMRjw%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20220609T082511Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Credential=ASIAWUW7WAOK3SVEH666%2F20220609%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Signature=c1ff7a0fdab4d9c97275a387d755b5c439c7f7a50fc660a284f4eb207a7fa4b4",
+    "website": "https://nodereal.io",
+    "github": "https://github.com/node-real",
+    "twitter": "https://twitter.com/Nodereal_io",
+    "crunchbase": "",
+    "funding": "$16M"
+  },
+  {
     "description": "Infura's development suite provides instant, scalable API access to the Ethereum and IPFS networks.",
     "name": "Infura",
     "full_name": "Infura",
