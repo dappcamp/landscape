@@ -195,6 +195,19 @@
     "funding": ""
   },
   {
+    "description": "ERC721A is an improved implementation of the IERC721 standard that supports minting multiple tokens for close to the cost of one.",
+    "name": "ERC721A",
+    "full_name": "ERC721A",
+    "category": "Open-source libraries",
+    "launch_year": 2021,
+    "logo": "https://raw.githubusercontent.com/chiru-labs/ERC721A/main/docs/assets/img/preview.png",
+    "website": "https://erc721a.org",
+    "github": "https://erc721a.org",
+    "twitter": "",
+    "crunchbase": "",
+    "funding": ""
+  },
+  {
     "description": "The ethers.js library aims to be a complete and compact library for interacting with the Ethereum Blockchain and its ecosystem.",
     "name": "Ethers.js",
     "full_name": "Ethers.js",
