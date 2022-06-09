@@ -156,6 +156,19 @@
     "funding": ""
   },
   {
+    "description": "Modern, opinionated, and gas optimized building blocks for smart contract development",
+    "name": "Solmate",
+    "full_name": "Solmate",
+    "category": "Open-source libraries",
+    "launch_year": 2021,
+    "logo": "https://rari.capital/images/finallsmall.png",
+    "website": "https://github.com/Rari-Capital/solmate",
+    "github": "https://github.com/Rari-Capital/solmate",
+    "twitter": "",
+    "crunchbase": "",
+    "funding": ""
+  },
+  {
     "description": "Dappsys is a collection of building blocks for building smart contract systems. They are written in Solidity, but deployed objects can be linked to any language.",
     "name": "Dappsys",
     "full_name": "Dappsys",
@@ -999,6 +1012,19 @@
     "twitter": "https://twitter.com/0xProject",
     "crunchbase": "https://www.crunchbase.com/organization/0x-project",
     "funding": "$109M"
+  },
+  {
+    "description": "Seaport is a marketplace protocol for safely and efficiently buying and selling NFTs",
+    "name": "Seaport",
+    "full_name": "Seaport",
+    "category": "Protocols",
+    "launch_year": 2022,
+    "logo": "https://v5.airtableusercontent.com/v1/4/4/1655942400000/fQCvnAQtpbTwOBNcCntiuQ/hKLhKR5nNOCAEsBCBTTBm9KyHedB51MvvScSJ2JX9yZQb82tUL3AQ6p7SbJipw3jn-pBmX-WNlpuKX2lVNaDxg/vZAV5T1whPIAKqKhdtS9ciXomnJhi4vltezZtkgsa3k",
+    "website": "https://github.com/ProjectOpenSea/seaport",
+    "github": "https://github.com/ProjectOpenSea/seaport",
+    "twitter": "",
+    "crunchbase": "",
+    "funding": ""
   },
   {
     "description": "Lens Protocol is a composable and decentralized social graph, ready for you to build on so you can focus on creating a great experience, not scaling your users.",
