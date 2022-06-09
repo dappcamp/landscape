@@ -156,6 +156,19 @@
     "funding": ""
   },
   {
+    "description": "Modern, opinionated, and gas optimized building blocks for smart contract development",
+    "name": "Solmate",
+    "full_name": "Solmate",
+    "category": "Open-source libraries",
+    "launch_year": 2021,
+    "logo": "https://v5.airtableusercontent.com/v1/4/4/1655942400000/s0HWzLzAv-4qMr1xNG7HUw/WWvMvZk0ucbAekK2qPmHSVI9fCpXbeql2cDeeb3JsEQ-k_5K7lKHdhGDi0jcynDlmTp4aaSM7nIUozbKv15eBg/YeZlO8J4z3fFqZw31b2MS8xAcaR6S72K_jeiKNP1ZwM",
+    "website": "https://github.com/Rari-Capital/solmate",
+    "github": "https://github.com/Rari-Capital/solmate",
+    "twitter": "",
+    "crunchbase": "",
+    "funding": ""
+  },
+  {
     "description": "Dappsys is a collection of building blocks for building smart contract systems. They are written in Solidity, but deployed objects can be linked to any language.",
     "name": "Dappsys",
     "full_name": "Dappsys",
@@ -268,6 +281,19 @@
     "logo": "https://dl.airtable.com/.attachments/963d71fefca6b54554a2b1823d23eaa7/73173da1/download1.png?ts=1654489644&userId=usr5OrXVf8rhDAngY&cs=ccbe6c0909cfc237",
     "website": "https://usedapp.io/",
     "github": "https://github.com/TrueFiEng/useDApp",
+    "twitter": "",
+    "crunchbase": "",
+    "funding": ""
+  },
+  {
+    "description": "Quickly experiment with Solidity using a frontend that adapts to your smart contract.",
+    "name": "Scaffold-Eth",
+    "full_name": "Scaffold-Eth",
+    "category": "Front-end Tools",
+    "launch_year": 2020,
+    "logo": "https://atgpub.s3.amazonaws.com/scaffold.png",
+    "website": "https://github.com/scaffold-eth/scaffold-eth#-scaffold-eth",
+    "github": "https://github.com/scaffold-eth/scaffold-eth",
     "twitter": "",
     "crunchbase": "",
     "funding": ""
@@ -1001,6 +1027,19 @@
     "funding": "$109M"
   },
   {
+    "description": "Seaport is a marketplace protocol for safely and efficiently buying and selling NFTs",
+    "name": "Seaport",
+    "full_name": "Seaport",
+    "category": "Protocols",
+    "launch_year": 2022,
+    "logo": "https://v5.airtableusercontent.com/v1/4/4/1655942400000/fQCvnAQtpbTwOBNcCntiuQ/hKLhKR5nNOCAEsBCBTTBm9KyHedB51MvvScSJ2JX9yZQb82tUL3AQ6p7SbJipw3jn-pBmX-WNlpuKX2lVNaDxg/vZAV5T1whPIAKqKhdtS9ciXomnJhi4vltezZtkgsa3k",
+    "website": "https://github.com/ProjectOpenSea/seaport",
+    "github": "https://github.com/ProjectOpenSea/seaport",
+    "twitter": "",
+    "crunchbase": "",
+    "funding": ""
+  },
+  {
     "description": "Lens Protocol is a composable and decentralized social graph, ready for you to build on so you can focus on creating a great experience, not scaling your users.",
     "name": "Lens Protocol",
     "full_name": "Lens Protocol",
@@ -1025,5 +1064,18 @@
     "twitter": "https://twitter.com/livepeerorg",
     "crunchbase": "https://www.crunchbase.com/organization/livepeer",
     "funding": "$51M"
+  },
+  {
+    "description": "RSS3 is the Feed of Web3, With one easy api endpoint, get unlimited data & feeds power.",
+    "name": "RSS3",
+    "full_name": "RSS3",
+    "category": "Protocols",
+    "launch_year": 2021,
+    "logo": "https://rss3.mypinata.cloud/ipfs/QmUG6H3Z7D5P511shn7sB4CPmpjH5uZWu4m5mWX7U3Gqbu",
+    "website": "https://rss3.io/",
+    "github": "https://github.com/NaturalSelectionLabs/RSS3-Protocol",
+    "twitter": "https://twitter.com/rss3_",
+    "crunchbase": "",
+    "funding": ""
   }
 ]
