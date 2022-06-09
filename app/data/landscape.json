@@ -1064,5 +1064,18 @@
     "twitter": "https://twitter.com/rss3_",
     "crunchbase": "",
     "funding": ""
+  },
+  {
+    "description": "Solving Web3 reliability and performance issues by efficiently employing the resources of hundreds of third party node providers.",
+    "name": "Blast",
+    "full_name": "Blast",
+    "category": "Infrastructure",
+    "launch_year": 2022,
+    "logo": "https://raw.githubusercontent.com/bwarelabs/blast-brand-assets/master/icon/svg/blast-icon-color.svg",
+    "website": "https://blastapi.io",
+    "github": "https://github.com/bwarelabs",
+    "twitter": "https://twitter.com/BwareLabs",
+    "crunchbase": "https://www.crunchbase.com/organization/bware-labs",
+    "funding": "$7M"
   }
 ]
