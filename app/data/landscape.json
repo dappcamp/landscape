@@ -377,6 +377,19 @@
     "funding": "$20.1M"
   },
   {
+    "description": "The only SDK you need to Go Multichain (batched transactions, NFTs, ENS, Payment Channels and more). Supports Ethereum and EVM compatible chains such as: Arbitrum, Optimism, Polygon, Avalanche, Fantom, Gnosis, BNB and Aurora.",
+    "name": "Etherspot",
+    "full_name": "Etherspot SDK",
+    "category": "Infrastructure",
+    "launch_year": 2021,
+    "logo": "https://etherspot.io/wp-content/themes/etherspot/assets/img/logo-color.svg",
+    "website": "https://etherspot.io",
+    "github": "https://github.com/etherspot",
+    "twitter": "https://twitter.com/etherspot",
+    "crunchbase": "",
+    "funding": ""
+  },
+  {
     "description": "MetaMask is a software cryptocurrency wallet used to interact with the Ethereum blockchain. It allows users to access their Ethereum wallet through a browser extension or mobile app, which can then be used to interact with decentralized applications. ",
     "name": "Metamask",
     "full_name": "Metamask",
@@ -492,6 +505,19 @@
     "twitter": "https://twitter.com/argentHQ",
     "crunchbase": "https://www.crunchbase.com/organization/argent",
     "funding": "$56.2M"
+  },
+  {
+    "description": "Pillar: A community-run, multichain DeFi smart wallet that supports Ethereum, Polygon, Gnosis Chain, BNB & Avalanche.",
+    "name": "Pillar",
+    "full_name": "Pillar Wallet",
+    "category": "Identity",
+    "launch_year": 2016,
+    "logo": "https://www.pillar.fi/wp-content/themes/pillar/assets/pillar-digital-artwork-logo/pillar-logo-1.png",
+    "website": "https://pillar.fi",
+    "github": "https://github.com/pillarwallet",
+    "twitter": "https://twitter.com/pillarwallet",
+    "crunchbase": "",
+    "funding": ""
   },
   {
     "description": "The InterPlanetary File System (IPFS) is a protocol and peer-to-peer network for storing and sharing data in a distributed file system. IPFS uses content-addressing to uniquely identify each file in a global namespace connecting all computing devices.",
@@ -624,19 +650,6 @@
     "funding": ""
   },
   {
-    "description": "Trail of Bits Inc provides information security services. The Company offers security research, penetration testing, red teaming, expert witness support, and incident response services. Trail of Bits caters to commercial enterprise clients.",
-    "name": "Trail of Bits",
-    "full_name": "Trail of Bits",
-    "category": "Security Analysis Tools",
-    "launch_year": 2012,
-    "logo": "https://dl.airtable.com/.attachments/ddeb28ea53732a3aa6c3021483b254d2/17486180/FbbYmQT__200x200.png?ts=1654489644&userId=usr5OrXVf8rhDAngY&cs=8371ef492477681f",
-    "website": "https://www.trailofbits.com/",
-    "github": "https://github.com/trailofbits",
-    "twitter": "https://twitter.com/trailofbits",
-    "crunchbase": "https://www.crunchbase.com/organization/trail-of-bits",
-    "funding": ""
-  },
-  {
     "description": "Slither is a Solidity static analysis framework written in Python 3. It runs a suite of vulnerability detectors, prints visual information about contract details, and provides an API to easily write custom analyses. Slither enables developers to find vulnerabilities, enhance their code comprehension, and quickly prototype custom analyses.",
     "name": "Slither",
     "full_name": "Slither",
@@ -687,19 +700,6 @@
     "twitter": "",
     "crunchbase": "",
     "funding": ""
-  },
-  {
-    "description": "CertiK is the leading security-focused ranking platform to analyze and monitor blockchain protocols and DeFi projects.",
-    "name": "CertiK",
-    "full_name": "CertiK",
-    "category": "Security Analysis Tools",
-    "launch_year": 2017,
-    "logo": "https://dl.airtable.com/.attachments/749f846d9b897e0b6901c5c3dd24e477/d1a86310/fhw8lemyleadhzwvhxyv.webp?ts=1654489644&userId=usr5OrXVf8rhDAngY&cs=f7b079dd09a39a54",
-    "website": "https://www.certik.com/",
-    "github": "https://github.com/CertiKProject",
-    "twitter": "https://twitter.com/CertiKCommunity",
-    "crunchbase": "https://www.crunchbase.com/organization/certik",
-    "funding": "$300.2M"
   },
   {
     "description": "Breadcrumbs is an open blockchain analytics platform. It offers a set of tools that empowers you to trace and monitor crypto transactions.",
