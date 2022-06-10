@@ -234,6 +234,19 @@
     "funding": ""
   },
   {
+    "description": "Nethereum is a .NET Ethereum integration library. Easily integrate Ethereum blockchain into your .NET applications with modular libraries for writing smart contracts, cryptographic wallets and decentralized apps. Both Nethereum and .NET are free, open source and cross platform for Windows, MacOS, Linux, Mobile iOS and Android, Unity, IoT and Cloud Services.",
+    "name": "Nethereum",
+    "full_name": "Nethereum",
+    "category": "Client libraries",
+    "launch_year": 2016,
+    "logo": "https://raw.githubusercontent.com/Nethereum/Nethereum/9c94c067a2e3c4bc2ec9c3fec6791e1c0d87a817/logos/logo512x512.png",
+    "website": "https://nethereum.com/",
+    "github": "https://github.com/Nethereum/Nethereum",
+    "twitter": "",
+    "crunchbase": "",
+    "funding": ""
+  },
+  {
     "description": "Moralis saves developers time and money to ship scalable & robust Dapps.",
     "name": "Moralis",
     "full_name": "Moralis",
