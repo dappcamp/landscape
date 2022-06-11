@@ -338,6 +338,19 @@
     "funding": ""
   },
   {
+    "description": "The ultimate Web3 infrastructure solution",
+    "name": "NodeReal",
+    "full_name": "NodeReal",
+    "category": "Infrastructure",
+    "launch_year": 2021,
+    "logo": "https://svgshare.com/i/i9P.svg",
+    "website": "https://nodereal.io",
+    "github": "https://github.com/node-real",
+    "twitter": "https://twitter.com/Nodereal_io",
+    "crunchbase": "",
+    "funding": ""
+  },
+  {
     "description": "QuickNode is your high-performance access to 13+ blockchains, including Ethereum, Gnosis (xDAI), Polygon, Binance Smart Chain, Avalanche, Fantom, Solana, Optimism, Arbitrum, Algorand, Celo, Terra and Bitcoin networks.",
     "name": "QuickNode",
     "full_name": "QuickNode",
