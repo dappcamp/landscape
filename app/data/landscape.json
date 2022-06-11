@@ -1127,5 +1127,18 @@
     "twitter": "https://twitter.com/rss3_",
     "crunchbase": "",
     "funding": ""
+  },
+  {
+    "description": "pNetwork is an open-source multi-chain routing protocol for providing interoperability across a variety of independent blockchains. These cross-blockchain functionalities enable the release of 'wrapped' tokens called pTokens that rely on maintaining a 1-to-1 peg in-between the native blockchain and the host blockchain.",
+    "name": "pNetwork",
+    "full_name": "pNetwork",
+    "category": "Bridge",
+    "launch_year": 2019,
+    "logo": "https://drive.google.com/file/d/1UC-5Fm_b-pge3eFsvKtkBKqu7CYFbl9j/view?usp=sharing",
+    "website": "https://p.network",
+    "github": "https://github.com/provable-things/ptokens-core",
+    "twitter": "https://twitter.com/pNetworkDeFi",
+    "crunchbase": "",
+    "funding": ""
   }
 ]
