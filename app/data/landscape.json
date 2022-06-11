@@ -156,6 +156,19 @@
     "funding": ""
   },
   {
+    "description": "The only SDK you need to Go Multichain (batched transactions, NFTs, ENS, Payment Channels and more). Supports Ethereum and EVM compatible chains such as: Arbitrum, Optimism, Polygon, Avalanche, Fantom, Gnosis, BNB and Aurora.",
+    "name": "Etherspot",
+    "full_name": "Etherspot SDK",
+    "category": "Development Frameworks",
+    "launch_year": 2021,
+    "logo": "https://etherspot.io/wp-content/themes/etherspot/assets/img/logo-color.svg",
+    "website": "https://etherspot.io",
+    "github": "https://github.com/etherspot",
+    "twitter": "https://twitter.com/etherspot",
+    "crunchbase": "",
+    "funding": ""
+  },
+  {
     "description": "OpenZeppelin provides security products to build, automate, and operate decentralized applications. We also protect leading organizations by performing security audits on their systems and products.",
     "name": "OpenZeppelin",
     "full_name": "OpenZeppelin",
@@ -351,19 +364,6 @@
     "funding": ""
   },
   {
-    "description": "The ultimate Web3 infrastructure solution",
-    "name": "NodeReal",
-    "full_name": "NodeReal",
-    "category": "Infrastructure",
-    "launch_year": 2021,
-    "logo": "https://svgshare.com/i/i9P.svg",
-    "website": "https://nodereal.io",
-    "github": "https://github.com/node-real",
-    "twitter": "https://twitter.com/Nodereal_io",
-    "crunchbase": "",
-    "funding": ""
-  },
-  {
     "description": "QuickNode is your high-performance access to 13+ blockchains, including Ethereum, Gnosis (xDAI), Polygon, Binance Smart Chain, Avalanche, Fantom, Solana, Optimism, Arbitrum, Algorand, Celo, Terra and Bitcoin networks.",
     "name": "QuickNode",
     "full_name": "QuickNode",
@@ -403,17 +403,30 @@
     "funding": "$20.1M"
   },
   {
-    "description": "The only SDK you need to Go Multichain (batched transactions, NFTs, ENS, Payment Channels and more). Supports Ethereum and EVM compatible chains such as: Arbitrum, Optimism, Polygon, Avalanche, Fantom, Gnosis, BNB and Aurora.",
-    "name": "Etherspot",
-    "full_name": "Etherspot SDK",
+    "description": "The ultimate Web3 infrastructure solution",
+    "name": "NodeReal",
+    "full_name": "NodeReal",
     "category": "Infrastructure",
     "launch_year": 2021,
-    "logo": "https://etherspot.io/wp-content/themes/etherspot/assets/img/logo-color.svg",
-    "website": "https://etherspot.io",
-    "github": "https://github.com/etherspot",
-    "twitter": "https://twitter.com/etherspot",
+    "logo": "https://v5.airtableusercontent.com/v1/4/4/1655942400000/uqImCRZjBGyp9eGnBevC4A/x6ypcXpeb6t2ml1n3zsJo14_406hnpemG80ox_-V5vpMEMGq2qW5L8obsDPD6FA-OGmIUq0woHaQr8liz3oMvg/wWz3krdMpJ3vahktu7VK7xMlUDsx65mERFG7nAsfgFM",
+    "website": "https://nodereal.io",
+    "github": "https://github.com/node-real",
+    "twitter": "https://twitter.com/Nodereal_io",
     "crunchbase": "",
     "funding": ""
+  },
+  {
+    "description": "Solving Web3 reliability and performance issues by efficiently employing the resources of hundreds of third party node providers.",
+    "name": "Blast",
+    "full_name": "Blast",
+    "category": "Infrastructure",
+    "launch_year": 2022,
+    "logo": "https://raw.githubusercontent.com/bwarelabs/blast-brand-assets/master/icon/svg/blast-icon-color.svg",
+    "website": "https://blastapi.io",
+    "github": "https://github.com/bwarelabs",
+    "twitter": "https://twitter.com/BwareLabs",
+    "crunchbase": "https://www.crunchbase.com/organization/bware-labs",
+    "funding": "$7M"
   },
   {
     "description": "MetaMask is a software cryptocurrency wallet used to interact with the Ethereum blockchain. It allows users to access their Ethereum wallet through a browser extension or mobile app, which can then be used to interact with decentralized applications. ",
@@ -1114,18 +1127,5 @@
     "twitter": "https://twitter.com/rss3_",
     "crunchbase": "",
     "funding": ""
-  },
-  {
-    "description": "Solving Web3 reliability and performance issues by efficiently employing the resources of hundreds of third party node providers.",
-    "name": "Blast",
-    "full_name": "Blast",
-    "category": "Infrastructure",
-    "launch_year": 2022,
-    "logo": "https://raw.githubusercontent.com/bwarelabs/blast-brand-assets/master/icon/svg/blast-icon-color.svg",
-    "website": "https://blastapi.io",
-    "github": "https://github.com/bwarelabs",
-    "twitter": "https://twitter.com/BwareLabs",
-    "crunchbase": "https://www.crunchbase.com/organization/bware-labs",
-    "funding": "$7M"
   }
 ]
