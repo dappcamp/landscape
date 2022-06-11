@@ -832,6 +832,17 @@
     "funding": "$15M"
   },
   {
+    "description": "Kenshi is a Swiss-based blockchain tech company offering services such as VRF oracle, Deep Indexing, GraphQL and R-API (Webhooks) for the blockchain.",
+    "name": "Kenshi",
+    "full_name": "Kenshi",
+    "category": "Oracles",
+    "launch_year": 2021,
+    "logo": "https://kenshi.io/images/kenshi.logo.short.svg",
+    "website": "https://kenshi.io/",
+    "github": "https://github.com/kenshi-token",
+    "twitter": "https://twitter.com/kenshi_token"
+  },
+  {
     "description": "Web3's leading bug bounty platform, protecting $100 billion in user funds",
     "name": "Immunefi",
     "full_name": "Immunefi",
