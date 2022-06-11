@@ -312,19 +312,6 @@
     "funding": "$563.9M"
   },
   {
-    "description": "The ultimate Web3 infrastructure solution",
-    "name": "NodeReal",
-    "full_name": "NodeReal",
-    "category": "Infrastructure",
-    "launch_year": 2021,
-    "logo": "https://svgshare.com/i/i9P.svg",
-    "website": "https://nodereal.io",
-    "github": "https://github.com/node-real",
-    "twitter": "https://twitter.com/Nodereal_io",
-    "crunchbase": "",
-    "funding": ""
-  },
-  {
     "description": "Infura's development suite provides instant, scalable API access to the Ethereum and IPFS networks.",
     "name": "Infura",
     "full_name": "Infura",
@@ -335,6 +322,19 @@
     "github": "https://github.com/INFURA",
     "twitter": "https://twitter.com/infura_io",
     "crunchbase": "https://www.crunchbase.com/organization/infura",
+    "funding": ""
+  },
+  {
+    "description": "The ultimate Web3 infrastructure solution",
+    "name": "NodeReal",
+    "full_name": "NodeReal",
+    "category": "Infrastructure",
+    "launch_year": 2021,
+    "logo": "https://svgshare.com/i/i9P.svg",
+    "website": "https://nodereal.io",
+    "github": "https://github.com/node-real",
+    "twitter": "https://twitter.com/Nodereal_io",
+    "crunchbase": "",
     "funding": ""
   },
   {
