@@ -169,6 +169,19 @@
     "funding": ""
   },
   {
+    "description": "ERC721A is an improved implementation of the IERC721 standard that supports minting multiple tokens for close to the cost of one.",
+    "name": "ERC721A",
+    "full_name": "ERC721A",
+    "category": "Open-source libraries",
+    "launch_year": 2021,
+    "logo": "https://raw.githubusercontent.com/chiru-labs/ERC721A/main/docs/assets/img/favicon.png",
+    "website": "https://erc721a.org",
+    "github": "https://github.com/chiru-labs/ERC721A",
+    "twitter": "https://twitter.com/AzukiOfficial",
+    "crunchbase": "",
+    "funding": ""
+  },
+  {
     "description": "Dappsys is a collection of building blocks for building smart contract systems. They are written in Solidity, but deployed objects can be linked to any language.",
     "name": "Dappsys",
     "full_name": "Dappsys",
