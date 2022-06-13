@@ -78,32 +78,6 @@
     "funding": ""
   },
   {
-    "description": "Brownie is a Python-based development and testing framework for smart contracts targeting the Ethereum Virtual Machine.\n",
-    "name": "Brownie",
-    "full_name": "Brownie",
-    "category": "Development Frameworks",
-    "launch_year": 2018,
-    "logo": "https://dl.airtable.com/.attachments/318972e3136200be73b1925a8115289d/b1be3e3c/lVNRIOmn_200x200.jpg?ts=1654489644&userId=usr5OrXVf8rhDAngY&cs=625952d6a8794959",
-    "website": "https://eth-brownie.readthedocs.io/en/stable/",
-    "github": "https://github.com/eth-brownie/brownie",
-    "twitter": "https://twitter.com/brownieeth",
-    "crunchbase": "",
-    "funding": ""
-  },
-  {
-    "description": "Command line tools and smart contract libraries for Ethereum smart contract development.",
-    "name": "dapp.tools",
-    "full_name": "dapp.tools",
-    "category": "Development Frameworks",
-    "launch_year": 2018,
-    "logo": "https://dl.airtable.com/.attachments/c3b0d1dfab128379f75bf5bb6ca32180/b25f454d/d1MS46O3_200x200.jpg?ts=1654489644&userId=usr5OrXVf8rhDAngY&cs=bf5887f88b3dcb91",
-    "website": "https://dapp.tools/",
-    "github": "https://github.com/dapphub/dapptools",
-    "twitter": "https://twitter.com/dapptools",
-    "crunchbase": "",
-    "funding": ""
-  },
-  {
     "description": "A world class development environment, testing framework and asset pipeline for blockchains using the Ethereum Virtual Machine (EVM), aiming to make life as a developer easier.",
     "name": "Truffle",
     "full_name": "Truffle",
@@ -126,6 +100,32 @@
     "website": "https://getfoundry.sh/",
     "github": "https://github.com/foundry-rs/foundry",
     "twitter": "",
+    "crunchbase": "",
+    "funding": ""
+  },
+  {
+    "description": "Brownie is a Python-based development and testing framework for smart contracts targeting the Ethereum Virtual Machine.\n",
+    "name": "Brownie",
+    "full_name": "Brownie",
+    "category": "Development Frameworks",
+    "launch_year": 2018,
+    "logo": "https://dl.airtable.com/.attachments/318972e3136200be73b1925a8115289d/b1be3e3c/lVNRIOmn_200x200.jpg?ts=1654489644&userId=usr5OrXVf8rhDAngY&cs=625952d6a8794959",
+    "website": "https://eth-brownie.readthedocs.io/en/stable/",
+    "github": "https://github.com/eth-brownie/brownie",
+    "twitter": "https://twitter.com/brownieeth",
+    "crunchbase": "",
+    "funding": ""
+  },
+  {
+    "description": "Command line tools and smart contract libraries for Ethereum smart contract development.",
+    "name": "dapp.tools",
+    "full_name": "dapp.tools",
+    "category": "Development Frameworks",
+    "launch_year": 2018,
+    "logo": "https://dl.airtable.com/.attachments/c3b0d1dfab128379f75bf5bb6ca32180/b25f454d/d1MS46O3_200x200.jpg?ts=1654489644&userId=usr5OrXVf8rhDAngY&cs=bf5887f88b3dcb91",
+    "website": "https://dapp.tools/",
+    "github": "https://github.com/dapphub/dapptools",
+    "twitter": "https://twitter.com/dapptools",
     "crunchbase": "",
     "funding": ""
   },
@@ -271,7 +271,7 @@
     "twitter": "",
     "crunchbase": "",
     "funding": ""
-  },  
+  },
   {
     "description": "Moralis saves developers time and money to ship scalable & robust Dapps.",
     "name": "Moralis",
