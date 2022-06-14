@@ -26,6 +26,19 @@
     "funding": ""
   },
   {
+    "description": "WebStorm is an integrated development environment for JavaScript and related technologies. Like other JetBrains IDEs, it makes your development experience more enjoyable, automating routine work and helping you handle complex tasks with ease. Solidity support was introduced in 2017.",
+    "name": "WebStorm",
+    "full_name": "WebStorm",
+    "category": "Solidity IDEs",
+    "launch_year": 2017,
+    "logo": "https://dl.airtable.com/.attachments/c2159361a1a8ca8b7831baa0169fb8f7/d5af8394/webstorm_logo_300x300.png?ts=1654489644&userId=usr5OrXVf8rhDAngY&cs=4784ddcd0e302437",
+    "website": "https://www.jetbrains.com/webstorm/",
+    "github": "",
+    "twitter": "https://twitter.com/WebStormIDE",
+    "crunchbase": "",
+    "funding": ""
+  },
+  {
     "description": "Atom is a free and open-source text and source code editor for macOS, Linux, and Microsoft Windows with support for plug-ins written in JavaScript, and embedded Git Control. Developed by GitHub, Atom is a desktop application built using web technologies. Solidity support was introduced in 2015.",
     "name": "Atom",
     "full_name": "Atom",
@@ -49,19 +62,6 @@
     "github": "https://github.com/SublimeText",
     "twitter": "https://twitter.com/sublimehq",
     "crunchbase": "https://www.crunchbase.com/organization/sublime-text",
-    "funding": ""
-  },
-  {
-    "description": "WebStorm is an integrated development environment for JavaScript and related technologies. Like other JetBrains IDEs, it makes your development experience more enjoyable, automating routine work and helping you handle complex tasks with ease. Solidity support was introduced in 2017.",
-    "name": "WebStorm",
-    "full_name": "WebStorm",
-    "category": "Solidity IDEs",
-    "launch_year": 2017,
-    "logo": "https://dl.airtable.com/.attachments/c2159361a1a8ca8b7831baa0169fb8f7/d5af8394/webstorm_logo_300x300.png?ts=1654489644&userId=usr5OrXVf8rhDAngY&cs=4784ddcd0e302437",
-    "website": "https://www.jetbrains.com/webstorm/",
-    "github": "",
-    "twitter": "https://twitter.com/WebStormIDE",
-    "crunchbase": "",
     "funding": ""
   },
   {
@@ -137,7 +137,7 @@
     "launch_year": 2021,
     "logo": "https://dl.airtable.com/.attachments/2c335690f186680eee2f8bebb34860c3/afc6ba31/shnlCRIg_200x200.jpg?ts=1654489644&userId=usr5OrXVf8rhDAngY&cs=6ec14ba31196649a",
     "website": "https://www.apeworx.io/",
-    "github": "https://github.com/ApeWorX",
+    "github": "https://github.com/ApeWorX/ape",
     "twitter": "https://twitter.com/ApeFramework",
     "crunchbase": "",
     "funding": ""
@@ -158,12 +158,12 @@
   {
     "description": "The only SDK you need to Go Multichain (batched transactions, NFTs, ENS, Payment Channels and more). Supports Ethereum and EVM compatible chains such as: Arbitrum, Optimism, Polygon, Avalanche, Fantom, Gnosis, BNB and Aurora.",
     "name": "Etherspot",
-    "full_name": "Etherspot SDK",
+    "full_name": "Etherspot",
     "category": "Development Frameworks",
     "launch_year": 2021,
     "logo": "https://etherspot.io/wp-content/themes/etherspot/assets/img/logo-color.svg",
     "website": "https://etherspot.io",
-    "github": "https://github.com/etherspot",
+    "github": "https://github.com/etherspot/etherspot-sdk",
     "twitter": "https://twitter.com/etherspot",
     "crunchbase": "",
     "funding": ""
@@ -241,7 +241,7 @@
     "launch_year": 2016,
     "logo": "https://dl.airtable.com/.attachments/634ecff00ba8d9d8c19002ff58177870/90538edd/ANmot3KY_200x200.jpg?ts=1654489644&userId=usr5OrXVf8rhDAngY&cs=fba2540efa92c6db",
     "website": "https://ethers.org/",
-    "github": "https://github.com/ethers-io/ethers.js/",
+    "github": "https://github.com/ethers-io/ethers.js",
     "twitter": "https://twitter.com/ethersproject",
     "crunchbase": "",
     "funding": ""
@@ -254,7 +254,7 @@
     "launch_year": 2016,
     "logo": "https://dl.airtable.com/.attachments/f72f285c2127adffb3923a6d97936d7c/803a685c/MTUQm073_200x200.jpg?ts=1654489644&userId=usr5OrXVf8rhDAngY&cs=d9ebdcc53b5e9b74",
     "website": "https://web3js.readthedocs.io/",
-    "github": "https://github.com/ethereumproject/web3.js/",
+    "github": "https://github.com/ethereumproject/web3.js",
     "twitter": "https://twitter.com/web3_js",
     "crunchbase": "",
     "funding": ""
@@ -299,15 +299,15 @@
     "funding": "$69.6M"
   },
   {
-    "description": "A collection of front-end libraries that make writing dapp user interfaces easier and more predictable.",
-    "name": "Drizzle",
-    "full_name": "Drizzle",
+    "description": "Quickly experiment with Solidity using a frontend that adapts to your smart contract.",
+    "name": "Scaffold-Eth",
+    "full_name": "Scaffold-Eth",
     "category": "Front-end Tools",
-    "launch_year": 2019,
-    "logo": "https://dl.airtable.com/.attachments/365dfc9cbde258873d57a862e2cd06d5/73e1a1f4/download.png?ts=1654489644&userId=usr5OrXVf8rhDAngY&cs=5a28142f0aaf8446",
-    "website": "https://trufflesuite.com/drizzle/",
-    "github": "https://github.com/trufflesuite/drizzle",
-    "twitter": "https://twitter.com/trufflesuite",
+    "launch_year": 2020,
+    "logo": "https://atgpub.s3.amazonaws.com/scaffold.png",
+    "website": "https://github.com/scaffold-eth/scaffold-eth",
+    "github": "https://github.com/scaffold-eth/scaffold-eth",
+    "twitter": "",
     "crunchbase": "",
     "funding": ""
   },
@@ -325,15 +325,15 @@
     "funding": ""
   },
   {
-    "description": "Quickly experiment with Solidity using a frontend that adapts to your smart contract.",
-    "name": "Scaffold-Eth",
-    "full_name": "Scaffold-Eth",
+    "description": "A collection of front-end libraries that make writing dapp user interfaces easier and more predictable.",
+    "name": "Drizzle",
+    "full_name": "Drizzle",
     "category": "Front-end Tools",
-    "launch_year": 2020,
-    "logo": "https://atgpub.s3.amazonaws.com/scaffold.png",
-    "website": "https://github.com/scaffold-eth/scaffold-eth#-scaffold-eth",
-    "github": "https://github.com/scaffold-eth/scaffold-eth",
-    "twitter": "",
+    "launch_year": 2019,
+    "logo": "https://dl.airtable.com/.attachments/365dfc9cbde258873d57a862e2cd06d5/73e1a1f4/download.png?ts=1654489644&userId=usr5OrXVf8rhDAngY&cs=5a28142f0aaf8446",
+    "website": "https://trufflesuite.com/drizzle/",
+    "github": "https://github.com/trufflesuite/drizzle",
+    "twitter": "https://twitter.com/trufflesuite",
     "crunchbase": "",
     "funding": ""
   },
