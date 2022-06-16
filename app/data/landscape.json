@@ -754,6 +754,19 @@
     "funding": "$1.6M"
   },
   {
+    "description": "Scribble is a runtime verification tool for Solidity that transforms annotations in the Scribble specification language into concrete assertions that check the specification.",
+    "name": "Scribble",
+    "full_name": "Scribble",
+    "category": "Security Analysis Tools",
+    "launch_year": 2020,
+    "logo": "https://raw.githubusercontent.com/ConsenSys/scribble/develop/static/logo.png",
+    "website": "https://consensys.net/diligence/scribble/",
+    "github": "https://github.com/ConsenSys/scribble",
+    "twitter": "",
+    "crunchbase": "",
+    "funding": ""
+  },
+  {
     "description": "Tenderly is software company that provides a platform to easily monitor your smart contracts with error tracking, real-time alerting, performance metrics, and detailed contract analytics.",
     "name": "Tenderly",
     "full_name": "Tenderly",
