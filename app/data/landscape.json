@@ -338,6 +338,28 @@
     "funding": ""
   },
   {
+    "description": "Thirdweb React SDK is the ultimate collection of React hooks for your web3 apps",
+    "name": "Thirdweb React SDK",
+    "full_name": "Thirdweb React SDK",
+    "category": "Front-end Tools",
+    "launch_year": 2021,
+    "logo": "https://raw.githubusercontent.com/thirdweb-dev/typescript-sdk/main/logo.svg",
+    "website": "https://thirdweb.com/",
+    "github": "https://github.com/thirdweb-dev",
+    "twitter": "https://twitter.com/thirdweb_"
+  },
+  {
+    "description": "wagmi is a collection of React Hooks containing everything you need to start working with Ethereum.",
+    "name": "wagmi",
+    "full_name": "wagmi",
+    "category": "Front-end Tools",
+    "launch_year": 2021,
+    "logo": "https://raw.githubusercontent.com/wagmi-dev/.github/main/content/logo-light.svg",
+    "website": "https://wagmi.sh/",
+    "github": "https://github.com/wagmi-dev",
+    "twitter": "https://twitter.com/wagmi_sh"
+  },
+  {
     "description": "Alchemy provides the leading blockchain development platform powering millions of users in 197 countries worldwide. Our mission is to provide developers with the fundamental building blocks they need to create the future of technology.",
     "name": "Alchemy",
     "full_name": "Alchemy",
@@ -1077,6 +1099,39 @@
     "funding": "$15.7M"
   },
   {
+    "description": "Synapse is a trustless cross-chain AMM & bridge; Bridge assets across chains, swap assets, earn yield & more.",
+    "name": "Synapse",
+    "full_name": "Synapse",
+    "category": "Bridge",
+    "launch_year": 2021,
+    "logo": "https://assets.coingecko.com/coins/images/18024/small/syn.png",
+    "website": "https://synapseprotocol.com/",
+    "github": "https://github.com/synapsecns",
+    "twitter": "https://twitter.com/SynapseProtocol"
+  },
+  {
+    "description": "Allbridge is a fast, affordable and secure way of moving liquidity between EVM, non-EVM, and L2 blockchains",
+    "name": "Allbridge",
+    "full_name": "Allbridge",
+    "category": "Bridge",
+    "launch_year": 2021,
+    "logo": "https://assets.coingecko.com/coins/images/18690/small/abr.png",
+    "website": "https://app.allbridge.io/",
+    "github": "https://github.com/allbridge-io",
+    "twitter": "https://twitter.com/Allbridge_io"
+  },
+  {
+    "description": "Multichain is a Cross-Chain Router Protocol: The Ultimate Router for Web3.0",
+    "name": "Multichain",
+    "full_name": "Multichain",
+    "category": "Bridge",
+    "launch_year": 2020,
+    "logo": "https://assets.coingecko.com/coins/images/22087/small/1_Wyot-SDGZuxbjdkaOeT2-A.png",
+    "website": "https://app.multichain.org/#/router",
+    "github": "https://github.com/anyswap",
+    "twitter": "https://twitter.com/MultichainOrg"
+  },
+  {
     "description": "0x is an open protocol that enables the peer-to-peer exchange of assets on the Ethereum blockchain.",
     "name": "0x",
     "full_name": "0x",
@@ -1153,5 +1208,38 @@
     "twitter": "https://twitter.com/pNetworkDeFi",
     "crunchbase": "",
     "funding": ""
+  },
+  {
+    "description": "Open and transparent DeFi TVL and analytics.",
+    "name": "DefiLlama",
+    "full_name": "DefiLlama",
+    "category": "API",
+    "launch_year": 2020,
+    "logo": "https://avatars.githubusercontent.com/u/82048198?s=200&v=4",
+    "website": "https://defillama.com/docs/api",
+    "github": "https://github.com/DefiLlama",
+    "twitter": "https://twitter.com/DefiLlama"
+  },
+  {
+    "description": "ZORA is a decentralized protocol where anyone can permissionlessly buy and sell NFTs.",
+    "name": "Zora",
+    "full_name": "Zora",
+    "category": "API",
+    "launch_year": 2019,
+    "logo": "https://avatars.githubusercontent.com/u/60056322?s=200&v=4",
+    "website": "https://docs.zora.co/",
+    "github": "https://github.com/ourzora/",
+    "twitter": "https://twitter.com/ourZORA"
+  },
+  {
+    "description": "Messari provides market intelligence that drives high-conviction participation in the crypto economy.",
+    "name": "Messari",
+    "full_name": "Messari",
+    "category": "API",
+    "launch_year": 2018,
+    "logo": "https://messari.io/images/Messari_icon_36x36.svg",
+    "website": "https://messari.io/api",
+    "github": "https://github.com/messari",
+    "twitter": "https://twitter.com/MessariCrypto"
   }
 ]
