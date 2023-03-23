@@ -943,6 +943,58 @@
     "funding": "$50K"
   },
   {
+    "description": "Go-ethereum (aka Geth) is an Ethereum client built in Go. It is one of the original and most popular Ethereum clients.",
+    "name": "Geth",
+    "full_name": "Go-ethereum",
+    "category": "Evm Execution Layer",
+    "launch_year": 2014,
+    "logo": "https://assets-global.website-files.com/6364e65656ab107e465325d2/637b9b77ff2ab3d8aa4d7285_Xnog7uQQm8HnK9pRI4-bQyqjnQKtQGtxtzf8VPsvga0.png",
+    "website": "https://geth.ethereum.org/",
+    "github": "https://github.com/ethereum/go-ethereum",
+    "twitter": "https://twitter.com/go_ethereum",
+    "crunchbase": "https://www.crunchbase.com/organization/ethereum",
+    "funding": "$18.4M"
+  },
+  {
+    "description": "The Nethermind client runs on Linux, Windows and MacOS; supporting Clique, AuRa, Ethash and Proof of Stake consensus algorithms, and made to be adaptable. Write your own plugins and leverage its full potential. Nethermind supports a range of plugin types: RPC, Block Tree Visitors, Devp2p, State Visitors, Config, TxPool, Tracers and CLI.",
+    "name": "Nethermind",
+    "full_name": "Nethermind",
+    "category": "Evm Execution Layer",
+    "launch_year": 2017,
+    "logo": "https://nethermind.io/wp-content/uploads/2022/04/Logo-icon.svg",
+    "website": "https://nethermind.io/",
+    "github": "https://github.com/NethermindEth/nethermind",
+    "twitter": "https://twitter.com/nethermindeth",
+    "crunchbase": "https://www.crunchbase.com/organization/nethermind",
+    "funding": "$190.2k"
+  },
+  {
+    "description": "Erigon is an implementation of Ethereum (execution client with light client for consensus layer), on the efficiency frontier. Archive Node by default.",
+    "name": "Erigon",
+    "full_name": "Erigon",
+    "category": "Evm Execution Layer",
+    "launch_year": 2020,
+    "logo": "https://assets-global.website-files.com/6364e65656ab107e465325d2/637b9a82f54d1b78adb474d3_6vJnOSk7MXRxy-ToMQ6_6MIiuON1fH6vYE1FPFz_4bs.jpeg",
+    "website": "https://github.com/ledgerwatch/erigon#erigon",
+    "github": "https://github.com/ledgerwatch/erigon",
+    "twitter": "https://twitter.com/ErigonEth",
+    "crunchbase": "",
+    "funding": ""
+  },
+  {
+    "description": "Hyperledger Besu is an open source Ethereum client developed under the Apache 2.0 license and written in Java. It runs on public and private networks.",
+    "name": "Besu",
+    "full_name": "Hyperledger Besu",
+    "category": "Evm Execution Layer",
+    "launch_year": 2015,
+    "logo": "https://besu.hyperledger.org/logo.svg",
+    "website": "https://besu.hyperledger.org/",
+    "github": "https://github.com/hyperledger/besu/",
+    "twitter": "https://twitter.com/HyperledgerBesu",
+    "crunchbase": "https://www.crunchbase.com/organization/hyperledger-2",
+    "funding": ""
+  },
+  {
     "description": "Polygon is a decentralised Ethereum scaling platform that enables developers to build scalable user-friendly dApps with low transaction fees without ever sacrificing on security.",
     "name": "Polygon",
     "full_name": "Polygon",
